@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Rubik",Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    height: 100vh;
+    background: #5151FE;
+}
+
+main{
+    background: #ffff;
+    max-width: 1350px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(52, 52, 255, 0.856), #371857, #140114 );
+}
+
+h1{
+    text-align: center;
+    color: #ffff;
+    font-family: "Fredoka",sans-serif;
+}
+
+h2{
+    margin-bottom: 40px;
+    font-size: 36px;
+    background-image:linear-gradient(to right, rgb(97, 29, 161), transparent);
+    font-weight: normal;
+    color: #ffff;
+    font-family: "Baloo 2", sans-serif;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: red;
+}
+
+h4{
+    font-size: 30px;
+    margin-left: 17px;
+    color: rgb(81, 231, 36);
+    padding: 10px 0;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-family: "Fredoka",sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Poppins",sans-serif;
+}
+
+.link1{
+    background: #D13B87;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 207px;
+    border-radius: 7px;
+    margin-top: 70px;
+}
+
+.link2{
+    background: #D13B87;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 207px;
+    border-radius: 7px;
+    margin: 19px 0;
+}
+
+
+.Caixas-Pirâmides{
+    background: orange;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 207px;
+    border-radius: 7px;
+    margin: 19px 0;
+}
+
+.Caixas-Milk{
+    background: orange;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 108px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.Caixas-Cubo{
+    background: orange;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 50px;
+    width: 120px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.Caixas-Cachepot{
+    background: orange;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 160px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.Acessar-Pack1{
+    background: #2677D1;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 150px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.Acessar-Pack3{
+    background: #2677D1;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 150px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.Acessar-Pack2{
+    background: #2677D1;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 150px;
+    border-radius: 7px;
+    margin: 19px 0;
+}
+
+.Acessar-Pack4{
+    background: #2677D1;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    width: 150px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.link4{
+    background: #7ED957;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 120px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link5{
+    background: #5BAF3F;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 40px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link6{
+    background: #5BAF3F;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 40px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link7{
+    background: #5BAF3F;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 169px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link8{
+    background: rgb(53, 206, 233);
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 90px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link9{
+    background: rgb(53, 206, 233);
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 169px;
+    width: 207px;
+    border-radius: 7px;
+}
+
+.link10{
+    background: rgb(47, 59, 172);
+    padding: 10px;
+    color: #ffff;
+    font-weight: 700;
+    display: block;
+    margin-top: 9px;
+    width: 220px;
+    border-radius: 7px;
+}
+
+section{
+    background: #ffff;
+    margin: 10px 20px 40px 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 3px 1px 10px black;
+    height: 600px;
+    height: auto;
+}
+
+article{
+    padding-left: 20px;
+}
+
+footer{
+    background: #1E2A38;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 5px 6px 8px black;
+}
+
+.icon{
+    width: 40px;
+    border-radius: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.tema{
+    height: 400px;
+}
+
+.canva{
+    height:300px;
+    background: #ffff;
+    padding: 15px;
+}
+
+.caixinha{
+    height: 520px;
+}
+
+.personagem{
+    height: 550px;
+}
+
+.kit{
+    height: 320px;
+}
+
+.celular{
+    height: 340px;
+}
+
+.pacote{
+    height: 500px;
+}
+
+.apostilas{
+    height: 500px;
+}
+
+.convites{
+    height: 500px;
+}
+
+.canva-vitalicio{
+    height: 500px;
+}
+
+.texto{
+    width: 600px;
+}
+
+@media (max-width: 720px){
+    section{
+        background: #ffff;
+        margin: 10px 10px 40px 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        min-height: 700px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .botoes-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    
+    article{
+    padding-left: 0px;
+    text-align: center;
+    }
+
+    p{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    h3{
+        margin-top: -20px;
+    }
+
+    .texto0{
+        line-height: 35px;
+    }
+
+    .texto{
+        width: 320px;
+        height: 200px;
+    }
+
+    .texto1{
+        font-size: 26px;
+    }
+
+    .texto3{
+        margin-top: 30px;
+        line-height: 35px;
+    }
+
+    .texto4{
+        line-height: 35px;
+    }
+
+    .texto5{
+        line-height: 35px;
+    }
+
+    .canva{
+        height: auto;
+    }
+
+    .tema{
+        height: auto;
+    }
+
+    .canva-vitalicio{
+        height: auto;
+    }
+
+    .apostilas{
+        height: auto;
+    }
+
+    .convites{
+        height: auto;
+    }
+
+    img{
+        border-radius: 20px;
+    }
+
+    h2{
+        background-image: none;
+        background: rgb(17, 76, 163);
+        font-weight: 700;
+        margin-top: 10px;
+        border-radius: 8px;
+        font-size: 25px;
+    }
+
+    .caixinha{
+        height: auto;
+    }
+    
+    .personagem{
+        height: auto;
+    }
+
+    .kit{
+        height: auto;
+    }
+
+    .celular{
+        height: auto;
+    }
+
+    .pacote{
+        height: auto;
+    }
+
+    .link1,
+    .link2,
+    .link4,
+    .link5,
+    .link6,
+    .link7,
+    .link8,
+    .link9,
+    .link10{
+        display: block;
+        margin: 20px auto;
+        width: fit-content;
+        border-radius: 40px;
+        padding: 18px;
+    }
+
+
+    .caixa1{
+        display:flex ;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    .caixa2{
+        display:flex ;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #link{
+        color: #ffff;
+        font-weight: 700;
+        display: block;
+        width: 220px;
+    }
+
+    .personagem1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .personagem2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+}
